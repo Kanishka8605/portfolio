@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #000;
+}
+
+header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 20px 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 28px;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: blueviolet;
+}
+
+.hero {
+  text-align: left;
+  padding: 100px 20px 50px;
+  margin-left: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero h1 span {
+  color: blueviolet;
+}
+
+.hero p {
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 20px 0;
+  font-weight: bold;
+
+}
+
+.social-icons a {
+  color: blueviolet;
+  font-size: 30px;
+  margin-top: -10px;
+  display: inline-block;
+}
+
+.about {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about h2 {
+  color: blueviolet;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 1000px;
+  margin: auto;
+  font-size: 1rem;
+}
+
+  
+
+
+
